@@ -29,8 +29,11 @@ npm install kaprekar
 ```js
 var kaprekar = require('kaprekar');
 
-kaprekar(1111); // -> -1
-kaprekar(6174); // -> 0
-kaprekar(8991); // -> 3
-
+k.kaprekar(0);      // -> -1
+k.kaprekar(12345);  // -> -1
+k.kaprekar(1111);   // -> -1
+k.kaprekar(6174);   // -> 0
+k.kaprekar(8991);   // -> 3
+k.kaprekar(1);      // -> 5
+k.kaprekar(21);     // -> 3
 ```
