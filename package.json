@@ -1,0 +1,14 @@
+{
+  "name": "kaprekar",
+  "version": "1.0.0",
+  "description": "A keprekar iteration calculator.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test" : "npm run build && node build/test.js",
+    "start": "npm run build && node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
