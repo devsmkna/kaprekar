@@ -27,7 +27,7 @@ npm install kaprekar
 # Usage
 
 ```js
-var kaprekar = require('kaprekar');
+var k = require('kaprekar');
 
 k.kaprekar(0);      // -> -1
 k.kaprekar(12345);  // -> -1

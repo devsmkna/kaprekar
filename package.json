@@ -1,6 +1,6 @@
 {
   "name": "kaprekar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A keprekar iteration calculator.",
   "main": "build/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test" : "npm run build && node build/test.js",
     "start": "npm run build && node build/index.js"
   },
-  "keywords": [],
+  "keywords": ["kaprekar", "number theory", "math"],
   "author": "Davide Visco",
   "license": "ISC"
 }
